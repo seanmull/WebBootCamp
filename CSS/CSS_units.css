@@ -1,0 +1,46 @@
+section{
+   background-color: grey;
+   width: 800px;
+   height: 800px;
+
+}
+
+div{
+    background-color: pink;
+    width: 50%; /*50% of the parent elements (section)*/
+    height: 50%;
+}
+
+h1{
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%; /*200% of the text size */
+}
+
+h2{
+    font-size: 2em; /*refers to font-size of parent element (article)*/
+    margin-left: 1em; /*refers to the font-size of current element*/
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+article{
+    font-size: 50px;
+}
+
+p{
+    font-size: 1em;
+}
+
+button{
+    font-size: 1em; /*difficult to scale other sizes if we just used pixels*/
+    padding: 0 1em;
+    border-radius: 0.5em;
+
+}
+
+ul{
+    font-size: 1.5em;  /*when we nest the ul we stake the scaling of the font*/
+}

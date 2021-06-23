@@ -1,0 +1,37 @@
+/* h1{
+    background-color: burlywood;
+    border: 1px solid black;
+    display: inline; //they behave as inline rather then there blocks
+}
+
+span{
+    background-color: lightblue;
+    border: 1px solid black;
+    display: block;
+} */
+
+span{ /*inline element*/
+    background-color: blue;
+    border: 1px solid black;
+    width: 500px; /* doesn't impact content size */
+    padding: 10px; /*ignores content*/
+    margin: 50px; /*only spreads out the horizonal margin*/
+}
+
+h1{ /*block element*/
+    background-color: paleturquoise;
+    border: 1px solid black;
+    width: 500px; /* does impact content size */
+    padding: 10px; /*ignores content*/
+    margin: 50px; /*only spreads out in all direction*/
+    display: none; /*if you want to hide the elements*/
+}
+
+div{ /*block inline elements*/
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 5px solid black;
+    display: inline-block; /*now width and height respected*/
+    margin: 20px;
+}

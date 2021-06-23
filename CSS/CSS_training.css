@@ -1,0 +1,33 @@
+h1{
+    /* color: blueviolet; */
+    /* background-color: rgb(109, 148, 55); */
+    /* background: #0f5679 */
+    /* background: #fff; */
+    /* text-align: center; */
+    /* width: 50% */
+    font-weight: normal;
+    font-size: 100px;
+    font-family:'Courier New', Courier, monospace; /*this falls back to other font styles*/
+}
+
+button{
+    /* color: red; */
+    /* background-color: coral; */
+}
+
+p{
+    /* color: olive; */
+    /* font-weight: bold; */
+    /* text-decoration: blue dotted underline;  */
+}
+
+body{
+    text-align: right;
+    line-height: 2.5;
+    letter-spacing: 3px;
+    font-size: 12px; 
+}
+
+a{
+    text-decoration: none; /*remove the line for hyperlink*/
+}
