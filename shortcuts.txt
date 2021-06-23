@@ -1,0 +1,61 @@
+Windows shortcuts
+
+Windows + Tab	Launch Windows 10 Task View
+Windows + L	Lock your Windows 10 device
+Windows + Ctrl + D	Create new virtual desktop
+Windows + Ctrl + F4	Close current virtual desktop
+Windows + Ctrl + [Left][Right]	Switch between virtual desktops
+Windows + [Left][Right][Up][Down]	Position windows on your screenE.g. Windows + [Left] moves the current window to the left half of your screen. If you use Windows + [Up] afterward, the current window will be placed in the upper left quarter of your screen.And, what’s very handy in my opinion: If you release the Windows key after positioning a window, Task View shows up on the opposite side of the positioned window to select and position another app.
+Windows + D	Show Windows desktop
+Windows + E	Open File Explorer
+Windows + R	Run a command
+Alt + F4	a) Close current window.  b) If you’re on your Windows 10 desktop, open Power dialogue to shut down or restart Windows, put your device in sleep mode, or sign out or switch the current user.
+
+
+Word shortcuts
+Select line of text
+Ctrl + Shift + Arrow key	Select block of text.
+Hold shift to keep selecting
+Shift + End                     Select line of text from start
+Shift + Start                   Select line of text from end
+Ctrl + Start                    Go to start of doc
+Ctrl + End                      Go to end of doc
+
+
+
+Chrome commands
+Open a new tab, and jump to it	Ctrl + t
+Jump to the next open tab	Ctrl + PgDn
+Jump to the previous open tab	Ctrl + PgUp
+Open the previous page from your browsing history in the current tab	Alt + Left arrow
+Open the next page from your browsing history in the current tab	Alt + Right arrow
+Close the current tab	Ctrl + w or Ctrl + F4
+
+
+Bash commands
+
+control z to exit command
+cat > [textfile] enter text in file
+cat >> [textfile] append text to file
+
+ls — List directory contents
+echo — Prints text to the terminal window
+touch — Creates a file
+mkdir — Create a directory
+grep — search
+man — Print manual or get help for a command
+pwd — Print working directory
+cd — Change directory
+mv — Move or rename directory
+rmdir — Remove directory
+locate — Locate a specific file or directory
+less — view the contents of a text file
+compgen -c — Shows all available commands, aliases, and functions
+> — redirect stdout
+	The > character is the redirect operator. This takes the output from the preceding command that you’d normally see in the terminal and sends it to a file that you give it. As an example, take echo “contents of file1” > file1. Here it creates a file called file1 and puts the echoed string into it
+cat — Read a file, create a file, and concatenate files
+| — Pipe A pipe takes the standard output of one command and passes it as the input to another.
+head — Read the start of a file
+tail — Read the end of a file
+chmod — Sets the file permissions flag on a file or folder
+exit — Exit out of a directory
