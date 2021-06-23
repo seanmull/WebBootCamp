@@ -151,3 +151,15 @@ strings are immutable
 typeof (variable) will give you the type of the variable
 slice will give you a substing of string
 on MZN when they have the [] in the arguments it means its optional
+-1 index is counting from the back of a string when you use .slice
+`Hello ${3}` will print "Hello 3" template literals need to make sure you
+use backtick rather then single quote
+null and undefined are data types
+Math is a method for javascript it is an object, Math.PI....floor.ceiling.random
+Math.random will give you a number 0-1
+Math.floor(Math.random() * 5) + 1 random number from 1-5
+== see if they have the same value but not type specific
+=== checks if they are the same type too
+== converts both to the same type then compares
+use the triple equals instead of doubler equals
+REPL stands for read-eval-print-loop the google console does all of these
