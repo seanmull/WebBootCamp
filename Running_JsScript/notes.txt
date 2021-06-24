@@ -1,0 +1,2 @@
+need to insert script tags at the end of the body tag
+this is since you want all the static element loaded before the script is invoked
