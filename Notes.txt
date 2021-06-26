@@ -165,3 +165,5 @@ use the triple equals instead of doubler equals
 REPL stands for read-eval-print-loop the google console does all of these
 need to insert script tags at the end of the body tag
 this is since you want all the static element loaded before the script is invoked
+else if runs in order
+used the prompt method to get the console to prompt you for input
