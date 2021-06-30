@@ -39,9 +39,14 @@ Close the current tab	Ctrl + w or Ctrl + F4
 
 Bash commands
 
+autocomplete tab
+if you press tab twice it will tell you which ones match
 control z to exit command
 cat > [textfile] enter text in file
 cat >> [textfile] append text to file
+pushd - changed dir but stores previous location
+popd - takes you back to previous location
+go to https://www.youtube.com/watch?v=oxuRxtrO2Ag 14:45
 
 ls — List directory contents
 echo — Prints text to the terminal window
