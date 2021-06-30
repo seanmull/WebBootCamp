@@ -46,7 +46,7 @@ cat > [textfile] enter text in file
 cat >> [textfile] append text to file
 pushd - changed dir but stores previous location
 popd - takes you back to previous location
-go to https://www.youtube.com/watch?v=oxuRxtrO2Ag 14:45
+go to https://www.youtube.com/watch?v=oxuRxtrO2Ag 20:36
 
 ls — List directory contents
 echo — Prints text to the terminal window
