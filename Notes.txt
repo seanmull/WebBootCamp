@@ -167,3 +167,6 @@ need to insert script tags at the end of the body tag
 this is since you want all the static element loaded before the script is invoked
 else if runs in order
 used the prompt method to get the console to prompt you for input
+the only values that are falsy are:
+false, 0, "", null, undefined, NaN
+everything else is truthy

@@ -22,6 +22,11 @@ Ctrl + Start                    Go to start of doc
 Ctrl + End                      Go to end of doc
 
 
+VS code
+ctrl ` allows you to toggle between terminal and editor
+F5 debug
+	
+
 
 Chrome commands
 Open a new tab, and jump to it	Ctrl + t
