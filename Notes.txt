@@ -170,3 +170,4 @@ used the prompt method to get the console to prompt you for input
 the only values that are falsy are:
 false, 0, "", null, undefined, NaN
 everything else is truthy
+when comparing arrays the === is comparing the memory address rather then the content
