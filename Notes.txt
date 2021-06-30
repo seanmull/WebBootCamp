@@ -171,3 +171,6 @@ the only values that are falsy are:
 false, 0, "", null, undefined, NaN
 everything else is truthy
 when comparing arrays the === is comparing the memory address rather then the content
+when using const for arrays, only the reference cannot be reassigned.  You can change the contents.
+objects are key : value type data structures
+every key is converted to string
