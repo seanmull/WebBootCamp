@@ -174,3 +174,4 @@ when comparing arrays the === is comparing the memory address rather then the co
 when using const for arrays, only the reference cannot be reassigned.  You can change the contents.
 objects are key : value type data structures
 every key is converted to string
+for of loops are for iterables, while for in loops are non-iterables (objects)
