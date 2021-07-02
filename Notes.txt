@@ -175,3 +175,5 @@ when using const for arrays, only the reference cannot be reassigned.  You can c
 objects are key : value type data structures
 every key is converted to string
 for of loops are for iterables, while for in loops are non-iterables (objects)
+whats passed into the function is an arguement
+whats needed to define the function are parameters
