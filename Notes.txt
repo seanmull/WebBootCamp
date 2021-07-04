@@ -177,3 +177,15 @@ every key is converted to string
 for of loops are for iterables, while for in loops are non-iterables (objects)
 whats passed into the function is an arguement
 whats needed to define the function are parameters
+variables take precidence by the most closest locality
+block scoped refers to have valuables only accessable to {} place in code
+some examples are loops, functions, conditionals etc
+function expressions are functions with a difference format
+variable = function(arguments){<some function}
+call this by saying varaiable(args);
+functions are just a value like anything else.
+higher order functions are functions that accept other functions as arguments
+or they can return a functions
+a method is just a function placed inside of an objects
+The keyword this is refering the object it is invoked.
+If none is invoked it defaults to the window object
