@@ -79,12 +79,44 @@ function random(start, end){
 
 // console.log(myMath.square(2));
 
-const person = {
-    first: 'Sean',
-    last: 'Mull',
-    fullName(){
-        return `${this.first} ${this.last}`
-    }
-}
+// const person = {
+//     first: 'Sean',
+//     last: 'Mull',
+//     fullName(){
+//         return `${this.first} ${this.last}`
+//     }
+// }
 
-console.log(person.fullName());
+// console.log(person.fullName());
+
+// function yell(msg){
+//     try{
+//         console.log(msg.toUpperCase().repeat(3));
+//     }catch(e){
+//         console.log(e);
+//         console.log("Please pass in a string");
+//     }
+// }
+
+// yell(3);
+
+// const nums = [1,2,3];
+
+// nums.forEach(function(ele){
+//     console.log(ele);
+// });
+
+// const letters = ['a','b','c'];
+// const caps = letters.map(function(t){
+//     return t.toUpperCase();
+// })
+
+// console.log(caps);
+
+const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'}, {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
+
+const firstNames = fullNames.map(function(fullName){
+    return fullName.first;
+})
+
+console.log(firstNames);

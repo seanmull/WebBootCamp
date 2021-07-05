@@ -189,3 +189,4 @@ or they can return a functions
 a method is just a function placed inside of an objects
 The keyword this is refering the object it is invoked.
 If none is invoked it defaults to the window object
+With map you pass in the full element and modify the return value how you like
