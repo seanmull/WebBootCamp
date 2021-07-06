@@ -190,3 +190,6 @@ a method is just a function placed inside of an objects
 The keyword this is refering the object it is invoked.
 If none is invoked it defaults to the window object
 With map you pass in the full element and modify the return value how you like
+arrow functions look like this
+const <some variable> = (args) => {some function and return}
+you can elimate the need for a return statement putting the function in () rather than {}
