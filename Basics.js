@@ -174,3 +174,42 @@
 
 // console.log(arr.some((num) => num < 4));
 
+// const arr = [12,2,3,4,5];
+
+// console.log(arr.reduce((acc,cur) => acc + cur))
+
+// console.log(arr.reduce((min,num) => Math.min(min,num)));
+
+// function rollDie(numSides = 6){
+//     return Math.floor(Math.random() * numSides) + 1;
+// }
+
+// console.log(rollDie(20));
+
+// const nums = [1,2,3,4];
+
+// console.log(Math.max(...nums));
+
+// const nums2 = [5,6,7,8];
+
+// const allnums = [...nums,...nums2];
+
+// console.log(allnums);
+
+// function sum(){
+//     return arguments.reduce((total,num) => total+num)
+// }
+
+// function sum(...nums){
+//     return nums.reduce((total,el) => total + el)
+// }
+
+// console.log(sum(3,4,5));
+
+// const arr = [4,3,2,1]
+
+// const [high, mid, lo] = arr;
+
+// console.log(high,mid,lo);
+
+

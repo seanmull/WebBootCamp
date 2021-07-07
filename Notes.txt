@@ -193,3 +193,7 @@ With map you pass in the full element and modify the return value how you like
 arrow functions look like this
 const <some variable> = (args) => {some function and return}
 you can elimate the need for a return statement putting the function in () rather than {}
+this keyword behaves differently for arrow functions
+you should put the default params as the second or later params
+the ... spread syntax converts data stuctures into a package of arguements
+[1,2,3,4] => 1,2,3,4
