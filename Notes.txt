@@ -199,3 +199,6 @@ the ... spread syntax converts data stuctures into a package of arguements
 [1,2,3,4] => 1,2,3,4
 type in console.dir(document) so see the DOM of webpage
 getelementid will return the object that has the corresponding id, not the html
+it returns a collection that is an array like object
+queryselector just gives us the first match, can use nth of type to select later elements
+queryselectorall does the same but selects all elements
