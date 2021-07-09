@@ -197,3 +197,5 @@ this keyword behaves differently for arrow functions
 you should put the default params as the second or later params
 the ... spread syntax converts data stuctures into a package of arguements
 [1,2,3,4] => 1,2,3,4
+type in console.dir(document) so see the DOM of webpage
+getelementid will return the object that has the corresponding id, not the html
