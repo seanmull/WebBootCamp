@@ -202,3 +202,12 @@ getelementid will return the object that has the corresponding id, not the html
 it returns a collection that is an array like object
 queryselector just gives us the first match, can use nth of type to select later elements
 queryselectorall does the same but selects all elements
+innertext shows the text displayed
+textcontent will alway show the text
+innerhtml is the actual html content
+element.getAttribute() gets the attribute from the html
+element.<attribute> gets the property from the DOM
+style properties in elements are camelcase while css usually with dashes
+style properties only capture inline style not the ones from the seperate sheet.
+All assignments to dom properties need to be strings
+class list allows you to change classes and keep the state of the previous changes
