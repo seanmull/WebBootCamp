@@ -211,3 +211,10 @@ style properties in elements are camelcase while css usually with dashes
 style properties only capture inline style not the ones from the seperate sheet.
 All assignments to dom properties need to be strings
 class list allows you to change classes and keep the state of the previous changes
+the on events we ends up assign functions to the properties
+they only trigger when the event happens
+the keyword "this" can refer to the element you are using.
+This will allow you reduce duplication of code if you want to do
+the same thing to different elements
+you may need to pass in the event object, this is especially true With
+keyboard events, prevent loading of form submittals
