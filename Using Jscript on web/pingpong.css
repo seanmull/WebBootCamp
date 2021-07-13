@@ -1,3 +1,20 @@
 .container{
-    background-color: aqua;
+    background-color: #fffffc;
+    max-width: 600px;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 2%;
+}
+
+body{
+    background-color: #9bf6ff;
+    text-align: center;
+}
+
+h1{
+    padding-top: 1rem;
+}
+
+p, label{
+    font-size: 120%;
 }
