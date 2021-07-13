@@ -14,3 +14,4 @@ btn.addEventListener('click', () => {
 function rand(range){
     return Math.floor(Math.random() * range + 1);
 }
+
