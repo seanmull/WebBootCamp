@@ -218,3 +218,13 @@ This will allow you reduce duplication of code if you want to do
 the same thing to different elements
 you may need to pass in the event object, this is especially true With
 keyboard events, prevent loading of form submittals
+we typically request to load html/css/js from a server
+this is done through protocals that were previously mentioned
+however there are other requests that can be made that involve API'same
+API's are programs that allow us to request data usually in JSON format
+This JSON is a stripped down piece of data that only returns what is requests
+APIs have endpoints that are exposed such that implementation details are hidden
+This seperates implementation from the interface
+JSON.parse converts the JSON string to a Javascript object
+JSON.stringify converst the Object into a JSON string
+Postman is great tool for managing/testing API requests
