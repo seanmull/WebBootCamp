@@ -32,11 +32,35 @@ axios.get("https://api.cryptonator.com/api/ticker/btc-usd")
         console.log("ERROR!", err);
     })
 
-const fetchBitcoinPrice = async () => {
-    try{
-        const res = await axios.get("https://api.cryptonator.com/api/ticker/btc-usd")
-        console.log(res.data.ticker.price);
-    }catch(err){
-        console.log("ERROR!", err);
-    }
+// const fetchBitcoinPrice = async () => {
+//     try{
+//         const res = await axios.get("https://api.cryptonator.com/api/ticker/btc-usd")
+//         console.log(res.data.ticker.price);
+//     }catch(err){
+//         console.log("ERROR!", err);
+//     }
+// }
+
+const addNewJoke = async () => {
+    const jokeText = await getDadJoke();
+    console.log(jokeText);
+    const list = document.createElement('li');
+    list.innerText = jokeText;
+    jokes.append(list);
 }
+
+
+const jokes = document.querySelector("#jokes");
+const button = document.querySelector("button");
+const getDadJoke = async () => {
+    const config = {headers: {Accept: 'application/json'}}
+    const res = await axios.get("https://icanhazdadjoke.com", config)
+    return res.data.joke;
+}
+button.addEventListener("click", () => {
+    addNewJoke();
+})
+
+
+
+
