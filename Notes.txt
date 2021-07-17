@@ -228,3 +228,8 @@ This seperates implementation from the interface
 JSON.parse converts the JSON string to a Javascript object
 JSON.stringify converst the Object into a JSON string
 Postman is great tool for managing/testing API requests
+You can override prototype class by calling <object>.prototype.<method>
+and assigning a function to it.
+prototype is the prototype class
+while __prototype__ is just a references
+dont mix arrow functions with the keyword this.
